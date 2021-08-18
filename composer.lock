@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "725e85d62095fb7205772ce71ff86620",
+    "content-hash": "57316b2d20fe9b2590de70076906e9f6",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -654,6 +654,67 @@
                 }
             ],
             "time": "2021-07-31T17:03:58+00:00"
+        },
+        {
+            "name": "czim/laravel-repository",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/czim/laravel-repository.git",
+                "reference": "26029e18263a5b8bd7e58e253931ef5d08db2cfc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/czim/laravel-repository/zipball/26029e18263a5b8bd7e58e253931ef5d08db2cfc",
+                "reference": "26029e18263a5b8bd7e58e253931ef5d08db2cfc",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^6.0|^7.0|^8.0",
+                "illuminate/support": "^6.0|^7.0|^8.0",
+                "myclabs/php-enum": "^1.7",
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "astrotomic/laravel-translatable": "^11.8",
+                "czim/laravel-listify": "^1.1|^2.0",
+                "orchestra/testbench": "^6.7.0",
+                "phpunit/phpunit": "^8.0|^9.0",
+                "watson/rememberable": "^5.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Czim\\Repository\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Coen Zimmerman",
+                    "email": "coen@pxlwidgets.com",
+                    "homepage": "http://www.pixelindustries.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Repository for Laravel (inspired by and indebted to Bosnadev/Repositories)",
+            "homepage": "https://github.com/czim/laravel-repository",
+            "keywords": [
+                "criteria",
+                "database",
+                "eloquent",
+                "laravel",
+                "repositories",
+                "repository"
+            ],
+            "support": {
+                "issues": "https://github.com/czim/laravel-repository/issues",
+                "source": "https://github.com/czim/laravel-repository/tree/2.1.2"
+            },
+            "time": "2020-12-21T18:47:33+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -2703,6 +2764,66 @@
                 }
             ],
             "time": "2021-07-23T07:42:52+00:00"
+        },
+        {
+            "name": "myclabs/php-enum",
+            "version": "1.8.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/myclabs/php-enum.git",
+                "reference": "b942d263c641ddb5190929ff840c68f78713e937"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/b942d263c641ddb5190929ff840c68f78713e937",
+                "reference": "b942d263c641ddb5190929ff840c68f78713e937",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "1.*",
+                "vimeo/psalm": "^4.6.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MyCLabs\\Enum\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP Enum contributors",
+                    "homepage": "https://github.com/myclabs/php-enum/graphs/contributors"
+                }
+            ],
+            "description": "PHP Enum implementation",
+            "homepage": "http://github.com/myclabs/php-enum",
+            "keywords": [
+                "enum"
+            ],
+            "support": {
+                "issues": "https://github.com/myclabs/php-enum/issues",
+                "source": "https://github.com/myclabs/php-enum/tree/1.8.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/mnapoli",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/myclabs/php-enum",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-07-05T08:18:36+00:00"
         },
         {
             "name": "nesbot/carbon",

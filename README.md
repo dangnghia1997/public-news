@@ -7,6 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-###Admin Credential:
+###Admin Credential
 >**email:** `admin@admin.com`   
 >**password:** `password`
+
+
+### Backend Voyager
+ [Github](https://github.com/the-control-group/voyager) [Home](https://voyager.devdojo.com/) [Docs](https://voyager-docs.devdojo.com/)
+
+
+###Architure
+ - Repository Pattern : using Repository package. [Github Docs](https://github.com/czim/laravel-repository)
