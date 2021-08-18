@@ -24,7 +24,12 @@ class PageController extends Controller
      */
     public function index(Request $request, $id)
     {
+        $page = $this->pageRepository->first();
+        $page->updateMeta('field_1', 'abc');
+        $page->updateMeta('person', ['first_name' => 'Dang', 'last_name' => 'Nghia']);
+
         $pages = $this->pageRepository->all();
+
         return view('pages.index', ['pages' => $pages]);
     }
 }

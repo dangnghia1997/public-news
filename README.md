@@ -18,3 +18,7 @@
 
 ###Architure
  - Repository Pattern : using Repository package. [Github Docs](https://github.com/czim/laravel-repository)
+ - MetaData like Wordpress: follow this [Blog](https://vanrossum.dev/16-how-to-make-wordpress-like-custom-fields-for-laravel-models)
+
+###Ui JUQERY plugin
+ - Dynamic form: [Github](https://github.com/rubyrainbows/dynamic-forms)
