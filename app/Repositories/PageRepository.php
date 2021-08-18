@@ -2,7 +2,7 @@
 
 namespace App\Repositories;
 
-use TCG\Voyager\Models\Page;
+use App\Models\Page;
 use App\Repositories\Contracts\PageRepositoryInterface;
 use Czim\Repository\BaseRepository;
 
